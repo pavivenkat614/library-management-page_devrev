@@ -1,0 +1,56 @@
+
+
+ul.nav li {
+    background:paleturquoise; 
+    border-right:0.08vw solid ; 
+    float:right;
+    border-style: outset;
+    
+}
+.h4{
+    text-align: centre;
+    text-decoration: dashed;
+    width: 20px;
+    background-color: aqua;
+}
+
+ul.nav a {
+    display:block;
+    padding:0 2.2vw;
+    color:grey;
+    text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:blue; 
+}
+/*book list*/
+
+
+  #myTable {
+    border-collapse: collapse; 
+    width: 90vw; 
+    border: 1px solid palegreen; 
+    font-size: 18px; 
+
+  }
+  
+  
+  Table.dataTable thead tr {
+    background-color: cyan;
+    border-style: double;
+  }
+  #myTable th, #myTable td {
+    text-align: center; 
+    padding: 15px;
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid palegreen;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: blue;
+  }
+ 
+ 

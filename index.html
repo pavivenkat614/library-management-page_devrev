@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Bootstrap.">  
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script> 
+</head>
+<body>  
+    <div class="container">
+        <h4 class="text-centre"><strong>Library Management System</strong></h4>    </div>
+    <div class="dataTables_wrapper">
+
+        <table id="myTable">
+          <thead>
+
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Subject</th>
+              <th>Publish-date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The India Story</td>
+              <td>Bima jalal</td>
+              <td>Fiction</td>
+              <td>21 July 1960</td>
+            </tr>
+            <tr>
+              <td>Listen to your heart:The london Adventure</td>
+              <td>Ruskin Bond</td>
+              <td>Fiction</td>
+              <td>06 June 2003</td>
+            </tr>
+            <tr>
+              <td>Business of sports:The winning formula for sucess</td>
+              <td>Vinit karnik</td>
+              <td>Maths</td>
+              <td>07 Novemeber 2004</td>
+            </tr>
+            <tr>
+              <td>A place called home</td>
+              <td>Preeti shenoy</td>
+              <td>Fiction</td>
+              <td>10 October 2017</td>
+            </tr>
+            <tr>
+               <td>Modi@20:Dreams meeting delivery</td>
+               <td>VP venkaiah naidu</td>
+               <td>Poem</td>
+               <td>25 July 2022</td>
+            </tr>
+            <tr>
+              <td>The struggle for police reforms in india</td>
+              <td>Ex-ips prakash singh</td>
+              <td>Non-Fiction</td>
+              <td>3 March 2011</td>
+            </tr>
+            <tr>
+              <td>INDO-PAK war1971-Reminiscence of air warriors</td>
+              <td>Rajnath singh</td>
+              <td>Physics</td>
+              <td>4 April 1992</td>
+            </tr>
+            <tr>
+              <td>leaders,politicians,citizens</td>
+              <td>Rasheed kidwai</td>
+              <td>Physics</td>
+              <td>02 January 1979</td>
+            </tr>
+            <tr>
+              <td>Birsa munda</td>
+              <td>Prof.Alok Chakrawal</td>
+              <td>Civics</td>
+              <td>10 July 2013</td>
+            </tr>
+            <tr>
+              <td>lal salam</td>
+              <td>Smriti Irani</td>
+              <td>Geography</td>
+              <td>05 May 1969</td>
+            </tr>
+            <tr>
+              <td>pride,prejudice and punditry</td>
+              <td>Shashi tharoor</td>
+              <td>Aptitude</td>
+              <td>30 May 2018</td>
+            </tr>
+            <tr>
+              <td>The Nine-Chambered Heart</td>
+              <td>Janice Pariat</td>
+              <td>Romance</td>
+              <td>20 February 2017</td>
+            </tr>
+            <tr>
+              <td>The dairy of a young girl</td>
+              <td>Anne Frank</td>
+              <td>Non-Fiction</td>
+              <td>28 August 1947</td>
+            </tr>
+            <tr>
+              <td>Health and Physical Education Class 12</td>
+              <td>Dr V K Sharma</td>
+              <td>Physical Education</td>
+              <td>19 December 2020</td>
+            </tr>
+            <tr>
+              <td>Oswaal Question Bank Social Science</td>
+              <td>Oswaal</td>
+              <td>Social Science</td>
+              <td>01 May 2019</td>
+            </tr>
+            <tr>
+              <td>Campbell Biology</td>
+              <td>Lisa A. Urry</td>
+              <td>Biology</td>
+              <td>12 November 2014</td>
+            </tr>
+            <tr>
+              <td>Molecular Biology of the Cell</td>
+              <td>James Watson</td>
+              <td>Biology</td>
+              <td>21 March 1983</td>
+            </tr>
+            <tr>
+              <td>Harry Potter and the Philosopher's Stone</td>
+              <td>J. K. Rowling</td>
+              <td>Fiction</td>
+              <td>26 June 1997</td>
+            </tr>
+            <tr>
+              <td>Harry Potter and the Chamber of Secrets</td>
+              <td>J. K. Rowling</td>
+              <td>Fiction</td>
+              <td>2 July 1998</td>
+            </tr>
+            <tr>
+              <td>Harry Potter and the Prisoner of Azkaban</td>
+              <td>J. K. Rowling</td>
+              <td>Fiction</td>
+              <td>8 July 1999</td>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Goblet of Fire</td>
+                <td>J. K. Rowling</td>
+                <td>Fiction</td>
+                <td>8 July 2000</td>
+              </tr>
+              <tr>
+                <td>Harry Potter and the Goblet of Fire</td>
+                <td>J. K. Rowling</td>
+                <td>Fiction</td>
+                <td>8 July 2000</td>
+              </tr>
+          </tbody>
+        </table>
+        
+      
+      </div>
+   
+      
+      <script>
+        $(document).ready( function () {
+          $('#myTable').DataTable({
+        "ordering": false,
+        "scrollY": "400px",
+        "scrollX":  true,
+        "scrollCollapse": true,
+        responsive: true,
+        
+    });       
+    } );
+    
+    </script> 
+    
+
+</body>
+</html>
